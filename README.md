@@ -1,6 +1,6 @@
-# myapp
+# flutter-quiz-app
 
-A new Flutter application.
+A new Flutter application where a user takes a quiz and according to their answers a score is evaluated. User can play it any number of times.
 
 ## Getting Started
 
