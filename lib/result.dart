@@ -6,6 +6,11 @@ class Result extends StatelessWidget {
 
   Result(this.resultScore, this.restartHandler);
 
+
+
+  //***************************************************************//
+  //******************* Getter for Result Phrase ******************//
+
   String get resultPhrase {
     String resultText;
 
@@ -23,6 +28,12 @@ class Result extends StatelessWidget {
 
     return resultText;
   }
+
+
+
+  //***************************************************************//
+  //******************** Widgets Build ****************************//
+  //***************************************************************//
 
   @override
   Widget build(BuildContext context) {

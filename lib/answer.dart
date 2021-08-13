@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
+
   final Function selectHandler;
   final String getanswer;
 
   Answer(this.selectHandler, this.getanswer);
+
+
+
+  //***************************************************************//
+  //******************** Widgets Build ****************************//
+  //***************************************************************//
 
   @override
   Widget build(BuildContext context) {

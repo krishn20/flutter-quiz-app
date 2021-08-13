@@ -7,12 +7,12 @@ void main() => runApp(MyApp());
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
     return MyAppState();
   }
 }
 
 class MyAppState extends State<MyApp> {
+
   final questions = const [
     {
       'question': 'What\'s your favourite color?',
@@ -49,6 +49,11 @@ class MyAppState extends State<MyApp> {
   var questionIndex = 0;
   int totalScore = 0;
 
+  
+
+  //***************************************************************//
+  //********************** setState() methods *********************// 
+
   void restartQuiz() {
     setState(() {
       questionIndex = 0;
@@ -72,6 +77,12 @@ class MyAppState extends State<MyApp> {
     print(questionIndex);
   }
 
+  
+  
+  //***************************************************************//
+  //******************** Widgets Build ****************************//
+  //***************************************************************//
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
